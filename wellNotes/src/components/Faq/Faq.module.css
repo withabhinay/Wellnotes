@@ -1,0 +1,52 @@
+.faqSection {
+  width: 90%;
+  /*height: 500px;*/
+  background-color: rgba(49, 43, 43, 0.5);
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+  margin-bottom: 70px;
+}
+.faqs {
+  width: 95%;
+  /*height: 400px;*/
+
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0px;
+  gap: 15px;
+}
+.quesCont {
+  width: 90%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #414141;
+}
+.quesCont h3 {
+  font-weight: 400;
+  font-size: 24px;
+  cursor: pointer;
+}
+.quesCont:hover {
+  background-color: rgb(86, 85, 85);
+}
+.quesCont p {
+  line-height: 1.5;
+}
+.quesCont p ul {
+  list-style: none;
+}

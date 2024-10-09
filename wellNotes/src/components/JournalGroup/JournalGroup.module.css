@@ -1,0 +1,107 @@
+.journalGroup {
+    background-color: rgba(29, 30, 29, 0.6);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #fff;
+  }
+  
+  .groupHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+  }
+  
+  .groupName {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .joinButton, .closeButton {
+    border-radius: 15px;
+    height: 36px;
+    width: 75px;
+    background-color: rgba(121, 216, 0, 1);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    /* padding: 5px 16px; */
+    border: 1px solid rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+  .joinButton:hover{
+    background-color: #414144;
+  }
+  .groupDetails {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(65, 65, 65, 1);
+    border-radius: 0 0 20px 20px;
+    padding: 13px;
+  }
+  
+  .detailItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detailLabel {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .detailValue {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 11px;
+  }
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(29, 30, 29, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .closeButton {
+
+    border: none;
+    display: block;
+    margin: auto;
+  }
+  
+  .dashboardBlur{
+    filter: blur(5px);
+  }
+  
+  
+  @media (max-width: 991px) {
+    .groupDetails {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .detailItem {
+      width: 45%;
+    }
+  }

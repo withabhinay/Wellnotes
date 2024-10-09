@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("src/assets/homePageback.svg");
+  background-size: cover;
+  /* background-position: center;*/
+  /* height: 100vh;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  margin: 5px 20px;
+  width: 90%;
+  height: 80px;
+  justify-content: space-between;
+}
+.logoContainer {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo {
+  font-family: "Shippori Antique B1", sans-serif;
+  font-size: 42px;
+  letter-spacing: -3.64px;
+  color: white;
+}
+
+.logoAccent {
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 45px;
+  color: rgba(121, 216, 0, 1);
+  margin-left: 5px;
+}
+.navlist {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.navlist li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 20px;
+}
+.launchAppButton {
+  width: 144px;
+  height: 46px;
+  background-color: #79d800;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: medium;
+}
+.betaContainer {
+  width: 170px;
+  height: 30px;
+  font-size: 16px;
+  color: white;
+  border: 1px solid white;
+  font-family: "Roboto";
+  font-weight: lighter;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 0px;
+}
+.heroSectionText {
+  width: 60%;
+  margin: 10px 20px;
+  color: white;
+  text-align: center;
+  font-family: "Shippori Antique B1";
+}
+.heroSectionText h1 {
+  font-family: "Shippori Antique B1";
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.heroSectionImage {
+  width: 922px;
+  height: 735px;
+  background-color: rgba(49, 43, 43, 0.5);
+  border: 1px solid white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.heroSectionImage img {
+  width: 877px;
+  height: 687px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.features {
+  width: 100%;
+  margin: 50px 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.features h1 {
+  font-family: "Shippori Antique B1";
+  font-weight: 300;
+}
+.ftrContainer {
+  width: 80%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.imageBox {
+  width: 500px;
+  height: 248px;
+  /*border: 2px solid red;*/
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.imageBox img {
+  width: 559px;
+  height: 240px;
+  margin-left: -30px;
+}
+.desc {
+  width: 500px;
+  height: 250px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+  font-family: "Roboto";
+}
+.desc h2 {
+  font-weight: medium;
+  font-size: 20px;
+}
+.desc p {
+  font-weight: lighter;
+}
+.faqSection {
+  width: 90%;
+  /*height: 500px;*/
+  background-color: rgba(49, 43, 43, 0.5);
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+  margin-bottom: 70px;
+}
+.faqs {
+  width: 95%;
+  /*height: 400px;*/
+  background-color: #414141;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.quesCont {
+  width: 90%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid white;
+}
+.quesCont h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.quesCont p {
+  line-height: 1.5;
+}

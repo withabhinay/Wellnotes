@@ -1,0 +1,2 @@
+#SolanaJournal
+##This repository is the project made for solana radar hackathon. The name of the project is wellnotes. So this is the decentralized journaling app where people get points for each entry. Later on they can redeem the points and also they can gamify their wirting journey where they can set goals among their peers, stake tokens and win rewards by remaining consistent. The main motive of this app is to motivate people to express their thoughts in fun way so that they do not loose motivation or consistency

@@ -1,0 +1,62 @@
+.journalControls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .sortButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .latestButton,
+  .oldestButton {
+    border-radius: 15px;
+    padding: 8px 18px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .latestButton {
+    background-color: rgba(121, 216, 0, 1);
+    color: #fff;
+  }
+  
+  .oldestButton {
+    background-color: rgba(49, 43, 43, 0.5);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+  
+  .postJournalButton {
+    border-radius: 15px;
+    background-color: rgba(121, 216, 0, 1);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+  .postJournalButton:hover{
+    background-color: rgba(49, 43, 43, 0.5);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(121, 216, 0, 1);
+  }
+  
+  @media (max-width: 991px) {
+    .journalControls {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+  
+    .sortButtons {
+      justify-content: space-between;
+    }
+  
+    .postJournalButton {
+      width: 100%;
+    }
+  }

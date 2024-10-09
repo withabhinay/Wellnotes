@@ -1,0 +1,45 @@
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .userStats{
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .statItem {
+    background-color: rgba(29, 30, 29, 0.6);
+    border-radius: 20px;
+    padding: 15px;
+    flex: 1;
+    margin: 0 10px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: #fff;
+    width: 315px;
+    height: 80px;
+  }
+  
+  .statLabel {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .statValue {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 9px;
+  }
+  
+  @media (max-width: 991px) {
+    .userStats {
+      flex-direction: column;
+    }
+  
+    .statItem {
+      margin: 10px 0;
+    }
+  }
